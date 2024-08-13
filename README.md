@@ -2,14 +2,14 @@
 
 ## Project Overview
 
-As a cybersecurity analyst, this project involves a thorough examination of the organization's security data to identify and investigate potential security incidents. Utilizing SQL queries, I filtered and analyzed data from the `log_in_attempts` and `employees` tables to address specific security concerns and ensure the organization's data integrity. The goal was to pinpoint suspicious activities and anomalies that could signify security threats or breaches.
+As a cybersecurity analyst, my role is pivotal in safeguarding the organization’s data integrity and security. This project focuses on a detailed examination of our security logs to identify and investigate potential security incidents. By leveraging SQL queries, I filtered and analyzed data from critical tables such as `log_in_attempts` and `employees` to uncover suspicious activities that could signify security threats or breaches. The ultimate goal was to ensure that the organization’s systems remain secure and to preemptively address any vulnerabilities.
 
 ## Objectives and Queries
 
 ### 1. **Detect After Hours Failed Login Attempts**
 
-**Objective:** 
-To identify login attempts that occurred after standard business hours (18:00) and were unsuccessful. This analysis is crucial for detecting unauthorized access attempts that happen outside of regular operational hours, which may indicate potential malicious activities or security breaches. Such after-hours activities are often more suspicious as they fall outside normal usage patterns, increasing the risk of security incidents.
+**Objective:**  
+To identify and analyze login attempts that occurred after standard business hours (18:00) and were unsuccessful. Monitoring after-hours login attempts is crucial as they may indicate unauthorized access attempts. Such activities, especially when they fail, could be a sign of malicious intent, and immediate investigation is required to prevent potential breaches.
 
 **SQL Query:**
 
